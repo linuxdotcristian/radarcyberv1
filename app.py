@@ -81,6 +81,6 @@ if st.button("Analisar") and cve_id_input:
     st.write(f"**No Catálogo KEV:** {'✅ Sim' if cve_data['is_in_kev'] else '❌ Não'}")
     st.write(f"**Pontuação EPSS:** {cve_data['epss_score'] if cve_data['epss_score'] else 'N/A'}")
     st.markdown(f"### 🔎 Prioridade: **{prioridade}**")
-```
+
 
 
